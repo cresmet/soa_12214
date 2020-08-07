@@ -58,7 +58,25 @@
         <!--  input is the name of the composite to run test suties against -->
         <input>soa-test-project</input>
     </properties>
-
+<repositories>
+  <repository>
+    <id>maven.oracle.com</id>
+    <releases>
+      <enabled>true</enabled>
+    </releases>
+    <snapshots>
+      <enabled>false</enabled>
+    </snapshots>
+    <url>https://maven.oracle.com</url>
+    <layout>default</layout>
+  </repository>
+</repositories>
+<pluginRepositories>
+  <pluginRepository>
+    <id>maven.oracle.com</id>
+    <url>https://maven.oracle.com</url>
+  </pluginRepository>
+</pluginRepositories
     <!--
            These refer to the properties defined above.  You should probably not need to make 
            any changes beflow this point - these just point to the properties above.
