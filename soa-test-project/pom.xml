@@ -76,7 +76,7 @@
     <id>maven.oracle.com</id>
     <url>https://maven.oracle.com</url>
   </pluginRepository>
-</pluginRepositories
+</pluginRepositories>
     <!--
            These refer to the properties defined above.  You should probably not need to make 
            any changes beflow this point - these just point to the properties above.
